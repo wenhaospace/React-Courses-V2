@@ -1,0 +1,40 @@
+[debug] [2022-05-31T07:23:27.142Z] ----------------------------------------------------------------------
+[debug] [2022-05-31T07:23:27.144Z] Command:       /usr/bin/node /usr/bin/firebase login
+[debug] [2022-05-31T07:23:27.145Z] CLI Version:   11.0.1
+[debug] [2022-05-31T07:23:27.145Z] Platform:      linux
+[debug] [2022-05-31T07:23:27.145Z] Node Version:  v16.14.2
+[debug] [2022-05-31T07:23:27.145Z] Time:          Tue May 31 2022 15:23:27 GMT+0800 (中国标准时间)
+[debug] [2022-05-31T07:23:27.145Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-31T07:23:27.147Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=926753975&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-05-31T07:24:02.262Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AX4XfWgkBXUMvD8LE_dzd90efle0rU1-IbOfYMElHTxqKfR7lmC8fIgNN7mBz2vvR3ag9g","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2022-05-31T07:24:39.965Z] ----------------------------------------------------------------------
+[debug] [2022-05-31T07:24:39.966Z] Command:       /usr/bin/node /usr/bin/firebase login
+[debug] [2022-05-31T07:24:39.967Z] CLI Version:   11.0.1
+[debug] [2022-05-31T07:24:39.967Z] Platform:      linux
+[debug] [2022-05-31T07:24:39.967Z] Node Version:  v16.14.2
+[debug] [2022-05-31T07:24:39.967Z] Time:          Tue May 31 2022 15:24:39 GMT+0800 (中国标准时间)
+[debug] [2022-05-31T07:24:39.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-31T07:24:39.969Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=706363239&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-05-31T07:24:46.377Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-31T07:24:46.377Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-05-31T07:24:52.297Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AX4XfWh9vXx9wGM2TgTiRAWTADVB8gSCpecnM7uu_eADOhL3NLNXt6un-c2-I4uaK3c7-A","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
